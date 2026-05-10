@@ -475,14 +475,6 @@ The backend stores email attempts in an email outbox table. This makes it possib
 
 The admin can also view emails from the web interface.
 
-### More Details
-
-The full documentation for this version is available in:
-
-```text
-FullstackTrainApp/README.md
-```
-
 
 
 ## Main Differences Between the Two Applications
