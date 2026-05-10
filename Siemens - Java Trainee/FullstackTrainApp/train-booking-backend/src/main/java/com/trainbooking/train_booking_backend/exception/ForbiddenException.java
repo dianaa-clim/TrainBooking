@@ -1,4 +1,8 @@
-package exception;
+package com.trainbooking.train_booking_backend.exception;
 
-public class ForbiddenException {
+public class ForbiddenException extends RuntimeException {
+
+    public ForbiddenException(String message) {
+        super(message);
+    }
 }

@@ -1,4 +1,8 @@
-package email;
+package com.trainbooking.train_booking_backend.email;
 
-public class EmailStatus {
+public enum EmailStatus {
+    PENDING,
+    SIMULATED,
+    SENT,
+    FAILED
 }

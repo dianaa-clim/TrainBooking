@@ -1,4 +1,6 @@
-package booking;
+package com.trainbooking.train_booking_backend.booking;
 
-public class BookingStatus {
+public enum BookingStatus {
+    CONFIRMED,
+    CANCELLED
 }

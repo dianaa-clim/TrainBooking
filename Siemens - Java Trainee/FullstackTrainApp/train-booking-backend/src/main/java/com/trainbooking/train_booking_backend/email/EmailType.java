@@ -1,4 +1,6 @@
-package email;
+package com.trainbooking.train_booking_backend.email;
 
-public class EmailType {
+public enum EmailType {
+    BOOKING_CONFIRMATION,
+    DELAY_NOTIFICATION
 }

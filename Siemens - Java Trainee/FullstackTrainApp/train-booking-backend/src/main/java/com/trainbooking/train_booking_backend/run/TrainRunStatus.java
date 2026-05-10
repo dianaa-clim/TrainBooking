@@ -1,4 +1,7 @@
 package com.trainbooking.train_booking_backend.run;
 
-public class TrainRunStatus {
+public enum TrainRunStatus {
+    SCHEDULED,
+    DELAYED,
+    CANCELLED
 }

@@ -1,4 +1,6 @@
 package model;
 
-public class BookingStatus {
+public enum BookingStatus {
+    CONFIRMED,
+    CANCELLED
 }

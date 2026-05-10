@@ -1,4 +1,8 @@
 package model;
 
-public class TrainRunStatus {
+public enum TrainRunStatus {
+    SCHEDULED,
+    DELAYED,
+    CANCELLED,
+    COMPLETED
 }

@@ -1,4 +1,8 @@
-package exception;
+package com.trainbooking.train_booking_backend.exception;
 
-public class NoJourneyFoundException {
+public class NoJourneyFoundException extends RuntimeException {
+
+    public NoJourneyFoundException(String message) {
+        super(message);
+    }
 }

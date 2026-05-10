@@ -1,0 +1,50 @@
+# =========================
+# Java / Spring Boot
+# =========================
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# =========================
+# Maven
+# =========================
+.mvn/wrapper/maven-wrapper.jar
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# Sensitive configuration
+# =========================
+.env
+.env.local
+application-local.properties
+application-secret.properties
+
+# IMPORTANT:
+# Ignore real application.properties if it contains:
+# - MySQL password
+# - Gmail App Password
+# - JWT secret
+src/main/resources/application.properties
+
+# Keep only safe example config in Git
+!src/main/resources/application-example.properties
+
+# =========================
+# IDE files
+# =========================
+.idea/
+*.iml
+.vscode/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db

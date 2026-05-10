@@ -1,0 +1,87 @@
+# =========================
+# Java / Maven
+# =========================
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# =========================
+# IntelliJ IDEA
+# =========================
+.idea/
+*.iml
+*.iws
+out/
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# React / Node
+# =========================
+node_modules/
+dist/
+build/
+coverage/
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Environment files
+# =========================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+FullstackTrainApp/train-booking-frontend/.env
+FullstackTrainApp/train-booking-backend/.env
+ConsoleTrainApp/.env
+
+# Keep example env files
+!.env.example
+!FullstackTrainApp/train-booking-frontend/.env.example
+!FullstackTrainApp/train-booking-backend/.env.example
+!ConsoleTrainApp/.env.example
+
+# =========================
+# Sensitive configuration files
+# =========================
+
+# Console app real config
+ConsoleTrainApp/src/main/resources/application.properties
+ConsoleTrainApp/src/main/resources/config.properties
+ConsoleTrainApp/src/main/resources/database.properties
+
+# Fullstack backend real config
+FullstackTrainApp/train-booking-backend/src/main/resources/application.properties
+FullstackTrainApp/train-booking-backend/src/main/resources/application-local.properties
+FullstackTrainApp/train-booking-backend/src/main/resources/application-secret.properties
+
+# =========================
+# Database local files
+# =========================
+*.db
+*.sqlite
+*.sqlite3
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.bak

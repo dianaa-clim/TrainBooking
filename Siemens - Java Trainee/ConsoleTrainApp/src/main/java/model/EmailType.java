@@ -1,4 +1,6 @@
 package model;
 
-public class EmailType {
+public enum EmailType {
+    BOOKING_CONFIRMATION,
+    DELAY_NOTIFICATION
 }

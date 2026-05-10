@@ -1,4 +1,4 @@
 package util;
 
-public class DatetimeUtil {
+public class DateTimeUtil {
 }

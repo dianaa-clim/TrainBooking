@@ -1,4 +1,7 @@
 package exception;
 
-public class NotFoundException {
+public class NotFoundException extends AppException {
+    public NotFoundException(String message) {
+        super(message);
+    }
 }

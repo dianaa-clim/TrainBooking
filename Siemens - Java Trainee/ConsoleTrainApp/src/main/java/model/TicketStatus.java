@@ -1,4 +1,6 @@
 package model;
 
-public class TicketStatus {
+public enum TicketStatus {
+    VALID,
+    CANCELLED
 }

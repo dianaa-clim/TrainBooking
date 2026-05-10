@@ -1,0 +1,57 @@
+# Maven build output
+target/
+out/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# VS Code
+.vscode/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Runtime files
+*.tmp
+*.temp
+
+# Java compiled files
+*.class
+
+# Local configuration with secrets
+src/main/resources/application.properties
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Database dumps / local backups
+*.sql.gz
+*.dump
+*.bak
+
+# Mail / credentials / secrets
+credentials.properties
+secrets.properties
+mail.properties
+
+# Test reports
+surefire-reports/
+failsafe-reports/
+
+# Maven wrapper exception if you add Maven Wrapper later
+!.mvn/wrapper/maven-wrapper.jar

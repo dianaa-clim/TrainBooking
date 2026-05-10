@@ -1,4 +1,7 @@
 package exception;
 
-public class NoJourneyFoundException {
+public class NoJourneyFoundException extends AppException {
+    public NoJourneyFoundException(String message) {
+        super(message);
+    }
 }

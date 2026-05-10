@@ -1,4 +1,7 @@
 package model;
 
-public class EmailStatus {
+public enum EmailStatus {
+    SIMULATED,
+    SENT,
+    FAILED
 }

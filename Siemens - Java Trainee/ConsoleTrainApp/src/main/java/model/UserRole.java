@@ -1,4 +1,6 @@
 package model;
 
-public class UserRole {
+public enum UserRole {
+    CUSTOMER,
+    ADMIN
 }

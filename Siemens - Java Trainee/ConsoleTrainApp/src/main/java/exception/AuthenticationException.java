@@ -1,4 +1,7 @@
 package exception;
 
-public class AuthenticationException {
+public class AuthenticationException extends AppException {
+    public AuthenticationException(String message) {
+        super(message);
+    }
 }

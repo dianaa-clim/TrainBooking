@@ -1,4 +1,4 @@
-package com.example.trainbooking.common;
+package com.trainbooking.train_booking_backend.common;
 
 import jakarta.persistence.*;
 import lombok.Getter;

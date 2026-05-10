@@ -1,4 +1,8 @@
-package exception;
+package com.trainbooking.train_booking_backend.exception;
 
-public class BadRequestException {
+public class BadRequestException extends RuntimeException {
+
+    public BadRequestException(String message) {
+        super(message);
+    }
 }
