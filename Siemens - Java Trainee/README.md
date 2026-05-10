@@ -207,13 +207,6 @@ SIMULATED
 
 If the email cannot be sent, the booking process is not blocked. The email attempt is saved with status `FAILED`.
 
-### More Details
-
-The full documentation for this version is available in:
-
-```text
-ConsoleTrainApp/README.md
-```
 
 ## 2. FullstackTrainApp
 
@@ -490,17 +483,7 @@ The full documentation for this version is available in:
 FullstackTrainApp/README.md
 ```
 
-The backend documentation is available in:
 
-```text
-FullstackTrainApp/train-booking-backend/README.md
-```
-
-The frontend documentation is available in:
-
-```text
-FullstackTrainApp/train-booking-frontend/README.md
-```
 
 ## Main Differences Between the Two Applications
 
@@ -702,34 +685,6 @@ The frontend usually runs on:
 
 ```text
 http://localhost:5173
-```
-
-## Testing
-
-The console application uses JUnit 5 and Mockito for testing important business logic.
-
-Main tested areas include:
-
-- authentication
-- customer registration
-- journey search
-- missing journey cases
-- overbooking prevention
-- booking creation
-- ticket generation
-
-Tests can be run with:
-
-```bash
-cd ConsoleTrainApp
-mvn test
-```
-
-The full-stack backend can also be tested with Maven:
-
-```bash
-cd FullstackTrainApp/train-booking-backend
-mvn test
 ```
 
 ## Example Data
